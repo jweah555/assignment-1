@@ -1,3 +1,170 @@
-h1 {
-    color: blue
+body {
+    font-family: Georgia, Garamond, serif;
 }
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+  
+   
+}
+
+ul {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: .5px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+
+
+}
+
+button {
+    background-color:#2BBBD7;
+    height: 2.5rem;
+    width: 5.8rem;
+    color: white;
+    border-radius: 1.2rem;
+    border-width: .5px;
+    border-style: none;
+    font-size: .9rem;
+}
+
+button:hover {
+    background-color: #4A4A4A;
+}
+
+.ul-word {
+    /* position: relative; */
+    /* top: .5rem; */
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+  
+}
+
+img {
+    width: 50%;
+    border-radius: 1rem;
+}
+
+#discover-txt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-list {
+    display: flex;
+    /* flex-direction: row; */
+}
+
+
+.svg-imgs {
+    width: 25%
+}
+
+#createimg {
+    width: 20rem;
+}
+
+#movementimg {
+    width: 15rem;
+}
+
+#exploreimg {
+    width: 18rem;
+}
+
+footer {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+#left-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    width: 8rem;
+    height: 2rem;
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+
+
+#footer-ul {
+    
+    display: flex;
+    flex-direction: column;
+    border-width: 0px;
+    gap: 10px
+}
+
+#footer-btn {
+    background-color: #FFCB56;
+}
+
+#footer-btn:hover {
+    background-color: #CC3A63;
+}
+
+#title, #act-title {
+    text-align: center
+}
+
+#main-event {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+#pres {
+    width: 70%;
+}
+
+#activity-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.act-img {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.act-img img {
+    width: 12rem;
+}
+
