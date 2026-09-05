@@ -1,5 +1,6 @@
 body {
     font-family: Georgia, Garamond, serif;
+    color: #404040;
 }
 
 
@@ -147,6 +148,10 @@ input {
     width: 70%;
 }
 
+#attendee-list {
+    list-style-type:symbols(⭐️);
+}
+
 #activity-list {
     display: flex;
     flex-wrap: wrap;
@@ -168,3 +173,11 @@ input {
     width: 12rem;
 }
 
+blockquote {
+    font-style: italic;
+    background-color: #FFFFA8;
+}
+
+#bold-word {
+    font-weight: bold;
+}
